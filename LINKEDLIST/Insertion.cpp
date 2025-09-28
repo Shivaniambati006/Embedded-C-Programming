@@ -101,29 +101,33 @@ int main(){
 	l.add(4);
 	l.add(5);
 	
-	cout << "Befor the insertion in the Begin"<< endl;
+	cout << "Original list: ";
+    l.print_list();
+    cout << endl;
+	
+	cout << "Befor the Insertion in the Begin"<< endl;
 	l.print_list();
 	
 	
-	cout << "After the insertion in the Begin"<< endl;
+	cout << "After the Insertion in the Begin"<< endl;
 	l.insertion_at_begin(0);
 	l.print_list();
 	cout <<endl;
 	
-	cout << "Befor the insertion at the End"<< endl;
+	cout << "Befor the Insertion at the End"<< endl;
 	l.print_list();
 	
 	
-	cout << "After the insertion at the End"<< endl;
+	cout << "After the Insertion at the End"<< endl;
 	l.insertion_at_end(0);
 	l.print_list();
 	cout <<endl;
 	
-	cout << "Befor the insertion at a given Position"<< endl;
+	cout << "Befor the Insertion at a given Position"<< endl;
 	l.print_list();
 	
 	
-	cout << "After the insertion at a given Position"<< endl;
+	cout << "After the Insertion at a given Position"<< endl;
 	l.insert_at_position(0 , 4);
 	l.print_list();
 }
