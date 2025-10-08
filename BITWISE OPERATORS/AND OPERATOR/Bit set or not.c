@@ -3,7 +3,7 @@
 int main(){
 	
 	unsigned char num = 73;
-	unsigned char mask = (num << 6);
+	unsigned char mask = (1 << 6);
 	
 	if(num & mask){
 		printf("THE BIT IS SET");
