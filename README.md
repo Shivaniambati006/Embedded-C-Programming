@@ -1,5 +1,5 @@
 # Embedded Codes
-## 🧠 Why Focus on Embedded C
+## Why Focus on Embedded C
 
 Embedded C programming is fundamentally different from general-purpose programming.  
 Instead of working in abstract layers or managed environments, firmware development operates **close to the hardware**, where software directly controls physical components.
